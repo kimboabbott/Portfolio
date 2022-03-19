@@ -1,0 +1,383 @@
+.header-wrapper {
+    background-image: url(assetts/header\ gilrmore\ girls\ pic\ .jpeg);
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-size: 400px;
+        height: 140px;
+        background-color: grey;
+        align-items: center;
+     padding: 60px 100px;
+      
+     }
+     
+     .navlink {
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: black;
+        align-items: center;
+        font-size: larger;
+        display: flex row;
+        justify-content: space-around;
+        padding-left: 250px;
+
+    }
+
+    .navlink:hover{
+
+        color: white;
+        transition: 2s;
+        letter-spacing: 3px;
+
+    }
+    
+    .nav {
+        align-items: center;
+        background-color: lightblue;
+        height: 50px;
+        padding-top: 20px;
+    }
+
+       
+        
+     
+    .button-quiz {
+        width: 400px;
+        border: 10px black solid;
+        background-image: url(assetts/lukes.png);
+       background-repeat: no-repeat;
+        background-position: right;
+        background-size: cover;
+        height: 100px;
+        opacity: 0.5;
+        font-family: Verdana, Geneva, Tahoma, sans-serif; 
+        font-size: 50px; 
+
+    }
+
+    .quizzes {
+    display: flex; 
+    justify-content: space-between;
+    }
+
+    
+    .middle {
+        text-align: center;
+        height: 1x; 
+        color: black;
+        font-size: 25px;
+        font-family: cursive;
+        
+    }
+
+    .main-wrapper {
+        
+        margin: 10px 10px 10px 10px;
+        justify-content:space-evenly;
+        display: flex;
+        background-color: gray;
+        padding: 10px;
+        
+    }
+
+
+.left-column {
+        
+        
+        border: 20 px black solid;
+        padding: 25px 25px 25px 25px;
+        background-color: darkgray;
+    }
+
+
+
+    .right-column {
+        
+        border: 20 px black solid;
+        padding: 25px 25px 25px 25px;
+        background-color: darkgrey;
+    }
+        
+
+    .middle-column {
+        
+        background-color: darkgrey;
+        border: 20 px black solid;
+        padding: 25px 25px 25px 25px;
+
+    }
+
+
+    
+    .bottom-section {
+        background-color: lightblue;
+        display: flex;
+        justify-content:space-between;
+       
+    }
+  
+
+    .map {
+        margin-left: 50px;
+    }
+
+    .map-title {
+        font-size: 40px;
+    }
+    
+    .icon {
+        font-size: 120px;
+        padding-top: 10px;
+        margin-right: 50px;
+        opacity: 0.7;
+
+        }
+
+   
+
+    
+    .lorelai-page {
+        background-color: blue;
+        align-items: left;
+        border: 10px black solild;
+        margin: 10px 10px 10px 10px;
+        background-size: 200px;
+    }
+
+    
+
+    
+    
+
+
+
+    .form {
+       
+    }
+
+    
+    
+
+   
+
+        
+    
+       
+    
+
+
+    .footer {
+        display: flex; 
+        justify-content: left;
+    }
+    
+        
+    
+    .flip-container {
+        flex-wrap: wrap; 
+        display: flex;
+        justify-content: space-evenly; 
+        background-color: teal;
+
+        
+
+    }
+
+
+    
+       
+
+
+    
+
+    .dropdown {
+        display: inline-block;
+        position: relative;
+       
+      }
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        width: 100%;
+        overflow: auto;
+        box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+      }
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+      .dropdown-content a {
+        display: block;
+        color: #000000;
+        padding: 5px;
+        text-decoration: none;
+      }
+      .dropdown-content a:hover {
+        color: #FFFFFF;
+        background-color: #00A4BD;
+      }
+
+
+      .button-lor {
+          background-color: powderblue;
+      }
+
+
+
+
+
+
+
+
+
+
+
+
+/* /* The flip box container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-box {
+    background-color: transparent;
+    width: 30%;
+    height: 200px;
+    border: 1px solid #f1f1f1;
+    perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  }
+  
+  /* This container is needed to position the front and back side */
+  .flip-box-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
+  }
+  
+  /* Do an horizontal flip when you move the mouse over the flip box container */
+  .flip-box:hover .flip-box-inner {
+    transform: rotateY(180deg);
+  }
+  
+  /* Position the front and back side */
+  .flip-box-front, .flip-box-back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden; /* Safari */
+    backface-visibility: hidden;
+  }
+  
+  /* Style the front side */
+  .flip-box-front {
+    background-color: #bbb;
+    color: black;
+  }
+  
+  /* Style the back side */
+  .flip-box-back {
+    background-color: linen;
+        padding: 10px 10px 10px 10px;
+        display: center;
+        height: 200px; 
+        width: 200px; 
+        border: 5px black solid;
+        margin-left: 40px;
+        font-family: monospace;
+        
+    transform: rotateY(180deg);
+  } 
+
+
+  
+  
+
+
+  .Rory {
+      margin-left: 400px;
+      margin-top: 100px;
+    height: 50px;
+    width: 100px;
+    border: 5px black solid;
+
+    background-color: purple;
+    color: white;
+    
+  }
+
+  .Bad-at-Dating {
+    height: 200px;
+    width: 300px;
+    border: 10px black solid;
+
+    background-color: purple;
+    color: white;
+    font-size: 3em;
+    align-items: top;
+    content: 100%;
+    margin-left: 200px;
+
+  }
+
+  .Books {
+      margin-top: 300px;
+
+    height: 50px;
+    width: 100px;
+    border: 5px black solid;
+
+    background-color: purple;
+    color: white;
+    
+
+  }
+
+  .main-rory-image {
+      margin-left: 200px;
+      z-index: 8;
+      opacity: 0.7;
+  }
+   
+.Rorys {
+    position: relative;
+  }
+  
+  .Rory {
+    position: relative;
+    z-index: 1;
+    border: solid;
+    height: 8em;
+    margin-bottom: 1em;
+    margin-top: 5em;
+    width: 20em;
+  }
+  .Books {
+    position: absolute;
+    z-index: 3; /* put .gold-box above .green-box and .dashed-box */
+    background: gold;
+    width: 80%;
+    left: 60px;
+    top: 3em;
+    font-size: 50px;
+  }
+  .Bad-at-Dating {
+    position: absolute;
+    z-index: 2; 
+    background: lightgreen;
+    width: 20%;
+    margin-left: 550px;
+    top: -25px;
+    height: 7em;
+    opacity: 0.6;
+  }
+
+
+  .Stuck-Up {
+      position: absolute;
+      z-index: 5;
+      background: violet;
+      width: 300px;
+      height:200px;
+      font-size: 50px;
+
+  }
+  
+
+  .main-rory {
+      background-color: grey;
+  }
