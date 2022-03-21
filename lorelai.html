@@ -37,87 +37,66 @@
 
         
         <div class="middle">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
+          
+           <div class="speech-bubble-lor"> <img src="assetts/house.jpeg" alt="picutre of lorelai's house">
     
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <p>Lorelai Quote</p>
-    
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-            <img src="assetts/house.jpeg" alt="Lukes" height="40px" width="70px">
-    
-    
-    
+           </div>
+
+        <div class="circular-sb">
+            Bicycle, unicycle, unitard. Hockey puck, rattlesnake, monkey, monkey, underpants!"
+    <div class="circle1"></div>
+    <div class="circle2"></div>
         </div>
-    
-
-
-
-
-
-
-
-
+        </div>
+ 
         
+
+
+
+
+
+<!-- trying out an accordian -->
+<div class="accordian-title"> Lorelai's Greatest Moments
+
+</div>
+
+<button class="accordion">Season 1, Episode 3</button>
+<div class="panel">
+  <p>Lorelai is called to Rory's school on laundry day, and is forced to wear daisy dukes to meet with Headmaster Charlston, much to Rory's dismay.</p>
+</div>
+
+<button class="accordion">Season 4, Episode 8</button>
+<div class="panel">
+  <p>Lorelai does a reanactment of the time she came to her parents' house to ask them to help her get Rory back to school.</p>
+</div>
+
+<button class="accordion">Season 7, Episode 7</button>
+<div class="panel">
+  <p>Lorelai says goodbye to Rory, and decides to give Luke one more shot as he organized the town farewell party.</p>
+</div>
+
+
+<script>
+var acc = document.getElementsByClassName("accordion");
+var i;
+
+for (i = 0; i < acc.length; i++) {
+  acc[i].addEventListener("click", function() {
+    /* Toggle between adding and removing the "active" class,
+    to highlight the button that controls the panel */
+    this.classList.toggle("active");
+
+    /* Toggle between hiding and showing the active panel */
+    var panel = this.nextElementSibling;
+    if (panel.style.display === "block") {
+      panel.style.display = "none";
+    } else {
+      panel.style.display = "block";
+    }
+  });
+}
+</script>
+
+
 </body>
-</html>
+</html>     
